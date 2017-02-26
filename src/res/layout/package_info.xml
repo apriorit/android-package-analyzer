@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/btnActivity"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0sp"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:text="@string/button_activities"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnService"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0sp"
+            android:layout_weight="1"
+            android:text="@string/button_services"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnReceiver"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_receivers"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnPermission"
+            style="@android:style/ButtonBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:text="@string/button_permission"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </ListView>
+
+</LinearLayout>

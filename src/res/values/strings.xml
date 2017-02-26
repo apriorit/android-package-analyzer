@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Package Analyzer</string>
+    <string name="menu_settings">Settings</string>
+	<string name="button_service_on">Service ON</string>
+	<string name="button_service_off">Service OFF</string>
+	<string name="button_activities">Activities</string>
+	<string name="button_services">Services</string>
+	<string name="button_receivers">Receivers</string>
+	<string name="button_permission">Permissions</string>
+	<string name="title_information">Information</string>
+	<string name="unknown_app_name">Unknown</string>
+	<string name="scann_service_started">Scanner service started!</string>
+	<string name="scann_service_stopped">Scanner service stoped!</string>
+	
+	<string name="notification_installed">is installed</string>
+	<string name="notification_text">Danger permissions. Its can be a Virus</string>
+	<string name="list_loads">Loading Package List &#8230;</string>
+
+	<string name="error_activity_not_found">Activity not found</string>
+	<string name="error">ERROR</string>
+
+</resources>
